@@ -1,0 +1,86 @@
+.Opiniones{
+    width: 100%;
+    height: 562px;
+    background: #E9F8FF;
+}
+.headerOpiniones{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 65px;
+    color: #008EBA;
+    text-align: center;
+    padding-block: 2.5%;
+}
+
+
+
+.radio{
+display: none;
+}
+.containerOpiniones{
+position: relative;
+margin: 2% auto;
+max-width: 818px;
+}
+.slider{
+width: 100%;
+position: absolute;
+height: 0;
+padding-top: 2%;
+background-color: #E9F8FF;
+overflow: hidden;
+height: 289px;
+}
+.slide0{
+position: absolute;
+width: 100%;
+height: 100%;
+top:0;left: 0;
+}
+.slide{
+opacity: 0;
+position: absolute;
+width: 100%;
+height: 100%;
+top:0;left: 0;
+}
+.slide img{
+background-color:#E9F8FF;
+transition: 1.5s ease-in-out;
+}
+.dots{
+width: 100%;
+position: absolute;
+bottom: 5%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.dots label{
+width: 15px;
+height: 15px;
+background:#64778C;
+margin: 0 7.4px;
+border-radius: 50%;
+opacity: 0.3;
+cursor: pointer;
+transition: 0.2s ease-in-out;
+}
+.dots label:hover{
+opacity: 0.7;
+}
+#radio-1:checked ~ #slide-1,
+#radio-2:checked ~ #slide-2,
+#radio-3:checked ~ #slide-3,
+#radio-4:checked ~ #slide-4{
+opacity: 1;
+}
+#radio-1:checked ~ .dots #label-1,
+#radio-2:checked ~ .dots #label-2,
+#radio-3:checked ~ .dots #label-3,
+#radio-4:checked ~ .dots #label-4{
+background-color: #008EBA;
+opacity: 1;
+}

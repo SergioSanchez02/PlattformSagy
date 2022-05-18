@@ -1,0 +1,60 @@
+.porqueElegirme{
+    width:100%;
+    height: 746px;
+    background-image: url('/public/fondoPorque.png');
+    background-color: #cccccc;
+}
+.containerHeaderPE{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 100%;
+}
+.headerPE{
+    width: 100%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.containerUl{
+    width: 100%;
+    align-content: center;
+}
+ul.contenedor-item {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    padding-inline-start: 0;
+}
+ul.contenedor-item li {
+    width: 30%;
+    margin: 0 1%;
+    position: relative;
+    overflow: hidden;
+}
+
+.imgBeneficio1{
+    width: 365px;
+    height: 436px;
+    opacity: 1;
+    z-index: 2;
+}
+.imgBeneficio1Hover{
+    width: 365px;
+    height: 436px;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    top: 350px;
+    transition: all .5s ease;
+}
+.contenedor-item li:hover .imgBeneficio1Hover{
+    opacity: 1;
+    top: 0;
+    -webkit-transform:skew(2);
+}

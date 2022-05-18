@@ -1,0 +1,120 @@
+.dudas{
+    width:100%;
+    height: 762px;
+    background-image: url('/public/FondoDudas.png');
+    background-color: #cccccc;
+    display: flex;
+}
+.headerDudas{
+    padding-left: 3%;
+    padding-top: 3%;
+}
+.mainHeaderDudas{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 65px;
+    color: #FFFFFF;
+    margin-left: 6%;
+    text-align: left;
+}
+.secondHeaderDudas{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 65px;
+    color: #FFFFFF;
+    text-align: left;
+    margin-left: 6%;
+}
+.leftDudas{
+    width: 78%;
+}
+.rigthDudas{
+    float: right;
+}
+.imgSagyDudas{
+    right: 0;
+    min-width: 412px;
+}
+.imgSignalDudas{
+    float: right;
+    transition: all .5s ease;
+}
+.headDudas div{
+    align-items: flex-end;
+    margin: auto;
+    margin-right: 0;
+}
+.mainListDudas{
+    display: flex;
+    list-style: none;
+
+}
+.firstListDudas, .secondListDudas{
+    width: 65%;
+}
+.firstListDudas a, .secondListDudas a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #00739D;
+
+}
+.firstListDudas li, .secondListDudas li{
+    list-style: none;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding-block: 5%;
+    padding-inline: 1%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #606060;
+    cursor: pointer;
+    margin-bottom: 4%;
+}
+.firstListDudas div, .secondListDudas div{
+    display: flex;
+}
+.firstListDudas li ul, .secondListDudas li ul{
+    display: none;
+    position: relative;
+    list-style: none;
+    padding: 0;
+
+}
+
+.firstListDudas li:hover ul, .secondListDudas li:hover ul{
+    display:block
+}
+
+
+.firstListDudas li:hover .imgSignalDudas, .secondListDudas li:hover .imgSignalDudas{
+    transform: rotate(90deg);
+}
+/**
+.mainListDudas{
+    width: 70%;
+    display: flex;
+    list-style: none;
+}
+.mainListDudas ul{
+    padding: 1%;
+}
+.secondListDudas{
+    display: none;
+    padding: 0;
+}
+.secondListDudas li{
+    list-style: none;
+    background-color: #FFFFFF;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+**/
