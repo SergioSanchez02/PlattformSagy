@@ -14,8 +14,8 @@ export default function Footer() {
       </div>
       <div className='rigthFooter'>
           <h2 className='msjFooter'>Sigamos conectados </h2>
-          <img className="imgFooterInstagram" src={process.env.PUBLIC_URL + 'InsFooter.png'} alt="IgLogoFooter.png"/>
-          <img className="imgFooterWpp" src={process.env.PUBLIC_URL + 'FooterWpp.png'} alt="WppLogoFooter.png"/>
+          <a className="link"  href="https://instagram.com/sagy.co?igshid=YmMyMTA2M2Y=" target="_blank"><img className="imgFooterInstagram" src={process.env.PUBLIC_URL + 'InsFooter.png'} alt="IgLogoFooter.png"/></a>
+          <a className="link"  href="https://wa.me/573243205821" target="_blank"><img className="imgFooterWpp" src={process.env.PUBLIC_URL + 'FooterWpp.png'} alt="WppLogoFooter.png"/></a>
       </div>
     </div>
   )

@@ -7,7 +7,7 @@ export default function ComoTeAyudo() {
     <div className='ComoAyudo' id="SectionComoTeAyudo">
       <div className='containerHeader'>
           <div className='questionComoAyudo'>¿Cómo lo hacemos?</div>
-          <h1 className='headerCA'>Así te ayudo</h1>
+          <h1 className='headerCA'>Así te ayudamos</h1>
           <p className='descriptionHeader'>Soy un asistente virtual que a través de inteligencia artificial y un equipo especialistas en servicios públicos, nos encargamos de: </p>
       </div>
       <div className='containerComoAyudo'>
@@ -40,7 +40,7 @@ export default function ComoTeAyudo() {
       <div className='containerFinal'>
           <h1 className='headerFinal'>¿Quieres que gestionemos</h1>
           <p className='headerSecond'>tus servicios públicos? <br></br></p>
-          <button className="buttonClickAquiCH"><Link className="link" to="/">Haz Click Aquí</Link></button>
+          <button className="buttonClickAquiCH"><a className="link"  href="https://wa.me/573243205821" target="_blank">Haz Click Aquí</a></button>
       </div>
       
     </div>

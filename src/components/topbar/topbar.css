@@ -1,7 +1,7 @@
 .top{
     position: sticky;
     width: 100%;
-    height: 90px;
+    height: 9rem;
     background-color:#ffffff;
     top:0;
     display: flex;
@@ -9,40 +9,46 @@
     font-family: 'Poppins', sans-serif;
     z-index: 999;
 }
-.topLeft,.topRight{
+.topLeft{
     flex: 1;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+.topRight{
+    flex: 1;
+    display: flex;
+}
 .topIconSagy{
-    width: 171px;
-    height: 61px;
+    width: 14rem;
+    height: 4.99rem;
 }
 .topCenter{
-    flex: 4;
+    flex: 2.5;
+    margin: 2rem;
 }
 .topIcon{
-    font-size: 30px;
-    margin-right: 10px;
+    font-size: 4rem;
+    margin-right: 1rem;
     background-color: #00B27A;
     color: #ffffff;
     cursor: pointer;
-    padding:10px;
-    border-radius:15px;
+    padding:1rem;
+    border-radius:1.5rem;
 }
 .topList{
     display: flex;
     justify-content: center;
     padding: 0;
+    padding-inline-start: 0px;
 }
 .topListItem{
     display: flex;
     cursor: pointer;
     color: #64778C;
     font-family: 'Poppins', sans-serif;
-    margin-right: 15px;
-    font-size: 14px;
+    margin-right: 0.3rem;
+    font-size: 2.8rem;
     font-weight: 500;
 }
 .topListR{
@@ -56,28 +62,79 @@
     cursor: pointer;
     color: #64778C;
     font-family: 'Poppins', sans-serif;
-    margin-right: 20px;
-    font-size: 14px;
+    margin-right: 1.5rem;
+    font-weight: 900;
+}
+.topListItemRButton{
+    display: flex;
+    cursor: pointer;
+    color: #64778C;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 2rem;
     font-weight: 900;
 }
 .topListAhorremosButton{
     background-color: #00B27A;
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    font-weight: 1000;
+    font-size: 3rem;
+    font-weight: 900;
     border: none;
-    border-radius: 20px;
-    padding: 10px;
+    border-radius: 6rem;
+    padding: 0.5rem 3rem;
     color: #ffffff;
 }
 .linkCenter{
     text-decoration:inherit;
     color:inherit;
+    padding: 0.4em;
+    display: block;
+}
+.secondSectionTop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .topList li:hover .linkCenter{
     color: #00B27A;
 }
 .topListAhorremosButton:hover{
     background-color: #00729A;
+}
+.checkbtn{
+    font-size: 6rem;
+    color: #00729A;
+    float: right;
+    line-height: 8rem;
+    margin-right: 4rem;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+@media (max-width: 858px) {
+    .checkbtn{
+        display: block;
+    }
+    .topRight{
+        display: none;
+    }
+    .topList{
+        position: fixed;
+        width: 100%;
+        flex-direction: column;
+        background-color: red;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    .topListItem{
+        display: block;
+        margin: 5rem 0;
+        line-height: 3rem;
+    }
+    #chech:checked ~ .topList{
+        left: 0;
+    }
 }

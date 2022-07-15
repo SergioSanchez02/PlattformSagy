@@ -16,7 +16,7 @@
     cursor: pointer;
     font-family: 'Poppins';
     font-style: normal;
-    font-size: 14px;
+    font-size: 2.5rem;
     line-height: 24px;
     /* identical to box height */
     
@@ -31,10 +31,13 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 4rem;
     line-height: 30px;
 
     color: #FFFFFF;
+}
+.rigthFooter a{
+    margin-left: 5%;
 }
 .imgFooterInstagram{
     margin-left: 5%;

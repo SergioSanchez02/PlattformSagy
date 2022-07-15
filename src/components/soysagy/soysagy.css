@@ -2,6 +2,7 @@
     width: 100%;
     height: 680px;
     background: #008EBA;
+    display:flex;
 }
 .contenedorSoySagy{
     display: flex;
@@ -21,7 +22,7 @@
     /*left: 525px;*/
 }
 .questionSoySagy{
-    min-height: 514px;
+    min-height: 434px;
     width: 50%;
     font-family: 'Poppins';
     font-weight: 900;
@@ -34,7 +35,7 @@
     width: 510px;
     height: 125px;
     color: #00729A;
-    bottom: 29%;
+    bottom: 20%;
 }
 .headerText{
     position: relative;
@@ -42,6 +43,7 @@
     font-weight: 700;
     font-size: 30px;
     line-height: 100%;
+    left:15%;
 }
 .bodyText{
     position: relative;
@@ -49,31 +51,32 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 100%;
+    left:15%;
 }
 .imgChathome{
     position: absolute;
     width: 584px;
     height: 154px;
-    left: -5%;
     top: -27px;
+    left:6%;
 }
 .buttonSoySagyTeCuento{
     position: absolute;
     width: 266px;
     height: 58px;
     left: 0;
-    right: 0;
+    right: 10rem;
     margin: auto;
-    top: 560px;
+    top: 57rem;
     background-color: #00B27A;
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
-    font-size: 25px;
+    font-size: 3.2rem;
     font-weight: 1000;
     color: white;
     border: none;
     border-radius: 30px;
-    padding: 10px;
+    padding: 0px;
 }
 .buttonSoySagyTeCuento:hover{
     background-color: #00729A;

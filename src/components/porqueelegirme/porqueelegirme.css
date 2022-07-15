@@ -28,7 +28,7 @@ ul.contenedor-item {
     display: flex;
     flex-flow: wrap;
     justify-content: center;
-    padding-inline-start: 0;
+    padding-inline-start: 1.5%;
 }
 ul.contenedor-item li {
     width: 30%;

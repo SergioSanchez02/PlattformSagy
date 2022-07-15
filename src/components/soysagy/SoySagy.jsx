@@ -17,7 +17,7 @@ export default function SoySagy() {
               <p className='headerText'>Hola, Soy Sagy,</p>
               <p className='bodyText'>un robot que, con la ayuda de un equipo de personas administra y optimiza el consumo y costo de tus servicios públicos, para que pagues lo justo mes a mes.</p>
           </div>
-          <button className="buttonSoySagyTeCuento"><Link className="link" to="/">Te cuento cómo</Link></button>
+          <button className="buttonSoySagyTeCuento"><a className="link"  href="https://wa.me/573243205821" target="_blank">Te cuento cómo</a></button>
       </div>
     </div>
   )
