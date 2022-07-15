@@ -1,6 +1,6 @@
 .ComoAyudo{
     width: 100%;
-    height: 1000px;
+    height: 1020px;
     background: #E9F8FF;
 }
 .containerHeader{
@@ -98,7 +98,9 @@
     color: white;
     border: none;
     border-radius: 30px;
-    padding: 0px;
+    padding: 0%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
 }
 .buttonClickAquiCH:hover{
     background-color: #00739D;
