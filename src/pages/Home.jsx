@@ -18,6 +18,10 @@ export default function Home() {
             <Dudas/>
             <Hablemos/>
             <Footer/>
+          </div>
+        <div className='Responsive'>
+          <object data={process.env.PUBLIC_URL + 'HomeMb.pdf'} className="pdfResponsive">
+          </object>
         </div>
     </>
   )
