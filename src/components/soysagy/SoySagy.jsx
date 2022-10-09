@@ -14,6 +14,7 @@ export default function SoySagy() {
           </div>
           <div className='chatSoySagy'>
               <img className="imgChathome" src={process.env.PUBLIC_URL + 'Chathome.png'} alt="chatSagy"/>
+              <img className="imgChathomeR" src={process.env.PUBLIC_URL + 'ChathomeR.png'} alt="chatSagy"/>
               <p className='headerText'>Hola, Soy Sagy,</p>
               <p className='bodyText'>un robot que, con la ayuda de un equipo de personas administra y optimiza el consumo y costo de tus servicios públicos, para que pagues lo justo mes a mes.</p>
           </div>

@@ -30,6 +30,9 @@
     line-height: 65px;
     color: #606060;
 }
+.descriptionHeaderR{
+    display: none;
+}
 .containerComoAyudo{
     display: flex;
     align-items: center;
@@ -48,7 +51,6 @@
 .sectionRigth{
     padding-right: 2%;
     display: table-column-group;
-    
 }
 .itemsR{
     align-items: center;
@@ -64,8 +66,6 @@
     width: 95px;
     height: 95px;
 }
-
-
 .headerFinal{
     font-family: 'Poppins';
     font-style: normal;
@@ -104,4 +104,59 @@
 }
 .buttonClickAquiCH:hover{
     background-color: #00739D;
+}
+@media (max-width: 858px) {
+    .ComoAyudo{
+        height: 1120px;
+    }
+    .questionComoAyudo{
+        font-size: 2.5rem;
+    }
+    .headerCA{
+        font-size: 2rem;
+    }
+    .descriptionHeader{
+        display: none;
+    }
+    .descriptionHeaderR{
+        display: block;
+        padding-bottom: 2%;
+        font-size: 1.7rem;
+        line-height: 100%;
+        font-weight: 400;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.8rem;
+        line-height: 100%;
+        color: #606060;
+    }
+    .containerComoAyudo{
+        display: block;
+    }
+    .sectionLeft{
+        text-align: center;
+        padding-left: 0%;
+    }
+    .imgComoAyudo{
+        width: 292px;
+        height: 287px;
+        padding-bottom: 5%;
+    }
+    .sectionRigth{
+        display: block;
+    }
+    .headerFinal{
+        font-size: 2rem;
+    }
+    .headerSecond{
+        font-size: 2rem;
+        padding-bottom: 2.5%;
+    }
+
+    
+    .buttonClickAquiCH{
+        width: 20.6rem;
+        height: 4.8rem;
+    }
 }

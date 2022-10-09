@@ -36,7 +36,6 @@ ul.contenedor-item li {
     position: relative;
     overflow: hidden;
 }
-
 .imgBeneficio1{
     width: 365px;
     height: 436px;
@@ -57,4 +56,44 @@ ul.contenedor-item li {
     opacity: 1;
     top: 0;
     -webkit-transform:skew(2);
+}
+
+@media (max-width: 858px) {
+    .porqueElegirme{
+        width:100%;
+        height: 1346px;
+    }
+    .headerPE{
+        font-size: 3rem;
+        padding-bottom: 10%;
+        padding-top: 5%;
+    }
+    ul.contenedor-item {
+        display: block;
+        padding-inline-start: 0%;
+    }
+    ul.contenedor-item li {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        overflow: visible;
+        padding-bottom: 10%;
+    }
+    .imgBeneficio1{
+        width: 29.5rem;
+        height: 35.3rem;
+        opacity: 1;
+        z-index: 2;
+    }
+    .imgBeneficio1Hover{
+        width: 29.5rem;
+        height: 35.3rem;
+        opacity: 0;
+        position: absolute;
+        text-align: center;
+        left: 4rem;
+        z-index: 1;
+        top: 350px;
+        transition: all .5s ease;
+    }
 }

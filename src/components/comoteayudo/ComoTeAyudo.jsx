@@ -13,6 +13,7 @@ export default function ComoTeAyudo() {
       <div className='containerComoAyudo'>
         <div className='sectionLeft'>
           <img className="imgComoAyudo" src={process.env.PUBLIC_URL + 'ComoLoHago.png'} alt="imgComoayudo"/>
+          <p className='descriptionHeaderR'>Soy un asistente virtual que a través de inteligencia artificial y un equipo especialistas en servicios públicos, nos encargamos de: </p>
         </div>
         <div className='sectionRigth'>
           <div className='itemsR'>

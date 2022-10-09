@@ -19,12 +19,15 @@ export default function Opiniones() {
 
           <div class="slide0" id="slide-0">
               <img className="imgOpinion2" src={process.env.PUBLIC_URL + 'Opinion2.png'} alt="Opinion1.png"/>
+              <img className="imgOpinion2R" src={process.env.PUBLIC_URL + 'Opinion2R.png'} alt="Opinion1.png"/>
           </div>
           <div class="slide" id="slide-1">
               <img className="imgOpinion2" src={process.env.PUBLIC_URL + 'Opinion2.png'} alt="Opinion1.png"/>
+              <img className="imgOpinion2R" src={process.env.PUBLIC_URL + 'Opinion2R.png'} alt="Opinion1.png"/>
           </div>
           <div class="slide" id="slide-2">
               <img className="imgOpinion4" src={process.env.PUBLIC_URL + 'Opinion4.png'} alt="Opinion2.png"/>
+              <img className="imgOpinion4R" src={process.env.PUBLIC_URL + 'Opinion4R.png'} alt="Opinion2.png"/>
           </div>
 
           <div class="dots">

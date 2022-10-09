@@ -115,12 +115,12 @@
 #check{
     display: none;
 }
+/**
 @media (max-width:858px){
     .top{
         display: none;
     }
-}
-/**
+}**/
 @media (max-width: 858px) {
     .checkbtn{
         display: block;
@@ -152,4 +152,4 @@
     #chech:checked ~ .topList{
         left: 0;
     }
-}**/
+}
