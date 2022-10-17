@@ -7,7 +7,7 @@ export default function Menures() {
     <div className='MenuRes'>
         <div className='topResponsive'>
             <label for="checkR" className="checkbtn2" id='IdCheck2'>
-                <img className="imgExitR" src={process.env.PUBLIC_URL + 'x.png'} alt="exit.png"/>
+                <img className="imgExitR" src={process.env.PUBLIC_URL + 'logox.png'} alt="exit.png"/>
             </label>
             
         </div>
