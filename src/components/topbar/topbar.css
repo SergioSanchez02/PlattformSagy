@@ -112,12 +112,6 @@
 .auxMenu{
     display: none;
 }
-/**
-@media (max-width:858px){
-    .top{
-        display: none;
-    }
-}**/
 @media (max-width: 858px) {
 
     .buttonResponsive{
