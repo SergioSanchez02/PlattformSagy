@@ -1,13 +1,15 @@
 .containerHablemos{
     width: 100%;
-    height: 594px;
+    height: auto;
     background: #E9F8FF;
     display: flex;
 }
 .leftHablemos{
+    padding-top: 3%;
     width: 60%;
     text-align: center;
     align-self: center;
+    padding-bottom: 3%;
 }
 .rigthHablemos{
     width:40%;
@@ -22,17 +24,17 @@
     font-size: 50px;
     line-height: 65px;
     color: #008EBA;
+}.mainHeaderHablemosR{
+    display: none;
 }
 .bodyHablemos{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 30px;
     color: #606060;
     margin-top: 5%;
     margin-bottom: 5%;
-    width: 405px;
 }
 .buttonSagyHablemos{
     border: none;
@@ -48,6 +50,7 @@
     font-weight: 800;
     font-size: 2.8rem;
     line-height: 27px;
+    margin-bottom: 5%;
 }
 .wpp{
     float: left;
@@ -55,4 +58,37 @@
 }
 .buttonSagyHablemos:hover{
     background-color: #00729A;
+}
+@media (max-width: 858px) {
+    .containerHablemos{
+        display: block;
+    }
+    .leftHablemos{
+        width: 100%;
+    }
+    .imgSagyTalk{
+        width: 26.7rem;
+        height: 28.5rem;
+    }
+    .mainHeaderHablemosR{
+        display: block;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 65px;
+        color: #008EBA;
+    }
+    .mainHeaderHablemos{
+        display: none;
+    }
+    .rigthHablemos{
+        width: 100%;
+        text-align: center;
+    }
+    .bodyHablemos{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
 }

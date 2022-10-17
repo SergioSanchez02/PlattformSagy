@@ -104,15 +104,12 @@
     display: none;
 }
 .checkbtn{
-    font-size: 6rem;
-    color: #00729A;
-    float: right;
-    line-height: 8rem;
-    margin-right: 4rem;
-    cursor: pointer;
     display: none;
 }
-#check{
+#checkR{
+    display: none;
+}
+.auxMenu{
     display: none;
 }
 /**
@@ -122,34 +119,49 @@
     }
 }**/
 @media (max-width: 858px) {
-    .checkbtn{
-        display: block;
+
+    .buttonResponsive{
+        display: flex;
+        width: 50%;
     }
-    .topRight{
+    .topLeft{
+        width: 50%
+    }
+    .topListAhorremosButton{
+        font-size: 2.5rem;
+        font-weight: 700;
+        border: none;
+        padding: 0rem 5%;
+        padding: auto;
+        margin: 15% 5%;
+    }
+    .topListAhorremosButton a{
+        line-height: 4rem;
+    }
+    .checkbtn{
+        height: 90%;
+        display: block;
+        font-size: 6rem;
+        color: #00729A;
+        cursor: pointer;
+        margin: 0 5%;
+        padding-bottom: 0.5rem;
+    }
+    .secondSectionTop{
         display: none;
     }
     .topIconSagy{
         float: left;
     }
-    .buttonResponsive{
-        display: flex
+    #checkR:checked ~ .topLeft{
+        display: none
     }
-
-    .topList{
-        position: fixed;
-        width: 100%;
-        flex-direction: column;
-        background-color: red;
-        left: -100%;
-        text-align: center;
-        transition: all .5s;
+    #checkR:checked ~ .buttonResponsive{
+        display: none
     }
-    .topListItem{
+    #checkR:checked ~ .auxMenu{
         display: block;
-        margin: 5rem 0;
-        line-height: 3rem;
-    }
-    #chech:checked ~ .topList{
-        left: 0;
+        width: 100%;
+        height: 100%;
     }
 }

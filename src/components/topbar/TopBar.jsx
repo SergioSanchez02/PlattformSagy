@@ -1,3 +1,4 @@
+import Menures from "../menures/Menures"
 import "./topbar.css"
 {/**import { Link } from "react-router-dom"**/}
 
@@ -5,17 +6,18 @@ import "./topbar.css"
 export default function TopBar() {
     return (
         <div className="top">
+            <input type='checkbox' id='checkR' className='btnRTop'/>
+            <div className="auxMenu"><Menures/></div>
             <div className="topLeft">
                 <a href="/" target=""><img className="topIconSagy" src={process.env.PUBLIC_URL + 'Sagy Logo.png'} alt="logo"/></a>
             </div>
             <div className="buttonResponsive">
                 <button className="topListAhorremosButton"><a className="link"  href="https://wa.me/573243205821" target="_blank">Ahorremos</a></button>
+                
+                <label for="checkR" className="checkbtn" id='IdCheck'>
+                    <img className="imgBar" src={process.env.PUBLIC_URL + 'menubar.png'} alt="BarMenu.png"/>
+                </label>
             </div>
-            <input type="checkbox" id="check"></input>
-            <label for="check" className="checkbtn">
-                <i class="fa-solid fa-bars"></i>
-            </label>
-            
             <div className="secondSectionTop">
                 <div className="topCenter">
                     <ul className="topList">

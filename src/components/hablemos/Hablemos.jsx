@@ -7,6 +7,7 @@ export default function Hablemos() {
     <div className='containerHablemos' id="SectionHablemos">
         <a></a>
         <div className='leftHablemos'>
+            <h1 className='mainHeaderHablemosR'>Hablemos</h1>
             <img className="imgSagyTalk" src={process.env.PUBLIC_URL + 'SagyHablemos.png'} alt="SagyTalk.png"/>
         </div>
         <div className='rigthHablemos'>

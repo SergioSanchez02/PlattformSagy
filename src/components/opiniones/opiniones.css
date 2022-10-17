@@ -84,6 +84,9 @@ background-color: #008EBA;
 opacity: 1;
 }
 @media (max-width: 858px) {
+    .Opiniones{
+        height: 650px;
+    }
     .imgOpinion2R{
         display: block;
     }

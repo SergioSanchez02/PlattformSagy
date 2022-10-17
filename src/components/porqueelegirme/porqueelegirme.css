@@ -86,14 +86,13 @@ ul.contenedor-item li {
         z-index: 2;
     }
     .imgBeneficio1Hover{
-        width: 29.5rem;
+        width: 30.5rem;
         height: 35.3rem;
         opacity: 0;
         position: absolute;
-        text-align: center;
-        left: 4rem;
         z-index: 1;
         top: 350px;
         transition: all .5s ease;
+        left: 12%;
     }
 }

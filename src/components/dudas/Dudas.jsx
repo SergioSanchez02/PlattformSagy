@@ -1,17 +1,16 @@
 import React from 'react'
 import './dudas.css'
-
 export default function Dudas() {
   return (
-    <div className='dudas' id="SectionDudas">
+    <div className='dudas' id='SectionDudas'>
         <div className='leftDudas'>
             <div className='headerDudas'>
                 <h1 className='mainHeaderDudas'>¿Dudas?</h1>
                 <h2 className='secondHeaderDudas'>Aquí te ayudamos a resolverlas</h2>
             </div>
+            <input type='checkbox' id='btnView' className='btnMostrar'/>
             <ul className='mainListDudas'> 
-                <ul className='firstListDudas'>
-                        
+                <ul className='firstListDudas'>       
                     <input type='hidden' id='btn'></input>
                     <li className='firstListitem1'>
                         <div className='headDudas'>
@@ -63,7 +62,8 @@ export default function Dudas() {
                     </li>
                     
                 </ul>
-                <ul className='secondListDudas'>
+                <label for="btnView" id="labelView">Cargar Más</label>
+                <ul className='secondListDudas' id='secondListDuda'>
                     <li className='secondListitem1'>
                         <div className='headDudas'>
                             <a>¿Cómo puedo hacer la <br/>inscripción de mi factura?</a>

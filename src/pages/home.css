@@ -6,16 +6,4 @@
 }
 /**
 @media (max-width: 858px) {
-    .home{
-        display: none;
-    }
-    .Responsive{
-        display: block;
-        width: 100%;
-        height: 100%;
-    }
-    .pdfResponsive{
-        width: 100%;
-        height: 1000px;
-    }
 }**/
