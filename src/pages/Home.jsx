@@ -6,6 +6,8 @@ import Opiniones from '../components/opiniones/Opiniones'
 import Dudas from '../components/dudas/Dudas'
 import Hablemos from '../components/hablemos/Hablemos'
 import Footer from '../components/footer/Footer'
+import Apoyan from '../components/apoyan/Apoyan'
+import Pertenecen from '../components/pertenecen/Pertenecen.jsx'
 
 export default function Home() {
   return (
@@ -14,9 +16,11 @@ export default function Home() {
             <SoySagy/>
             <ComoTeAyudo/>
             <PorqueElegirme/>
-            <Opiniones/>
+            <Pertenecen/>
+            {/*<Opiniones/>*/}
             <Dudas/>
             <Hablemos/>
+            <Apoyan/>
             <Footer/>
           </div>
     </>

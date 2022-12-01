@@ -14,32 +14,32 @@ export default function Dudas() {
                     <input type='hidden' id='btn'></input>
                     <li className='firstListitem1'>
                         <div className='headDudas'>
-                            <a>¿Puedo inscribir cualquier tipo <br/>de establecimiento?</a>
+                            <a>¿Puedo inscribir cualquier tipo de establecimiento?</a>
                             <div>
                                 <img className="imgSignalDudas" src={process.env.PUBLIC_URL + 'SignalDudas.png'} alt="SignalDudas.png"/>
                             </div>
                             
                         </div>
                         <ul className='subListFirstItem1'>
-                            <li>Sí. Puedes registrar tu empresa o la<br/>empresa en donde trabajas, tu casa,<br/>apartamento, finca o local comercial<br/>propio o arrendado.</li>
+                            <li>Sí. Puedes registrar tu empresa o la empresa en donde trabajas, tu casa, apartamento, finca o local comercial propio o arrendado.</li>
                         </ul>
                     </li>
                     
                     <li className='firstListitem3'>
                         <div className='headDudas'>
-                            <a>¿Cuánto vale el servicio de <br/>Sagy?</a>
+                            <a>¿Cuánto vale el servicio de Sagy?</a>
                             <div>
                                 <img className="imgSignalDudas" src={process.env.PUBLIC_URL + 'SignalDudas.png'} alt="SignalDudas.png"/>
                             </div>
                         </div>
                         <ul className='subListFirstItem3'>
-                            <li>Trabajamos por resultados. Nuestra<br/>remuneración corresponde al 40% del<br/>ahorro que te generemos. Es decir, con<br/>el mismo ahorro tú nos recompensas.</li>
+                            <li>Trabajamos por resultados. Nuestra remuneración corresponde al 40% del ahorro que te generemos. Es decir, con el mismo ahorro tú nos recompensas.</li>
                         </ul>
                     </li>
                     
                     <li className='firstListitem5'>
                         <div className='headDudas'>
-                            <a>¿Cuántas facturas puedo <br/>inscribir?</a>
+                            <a>¿Cuántas facturas puedo inscribir?</a>
                             <div>
                                 <img className="imgSignalDudas" src={process.env.PUBLIC_URL + 'SignalDudas.png'} alt="SignalDudas.png"/>
                             </div>
@@ -51,13 +51,13 @@ export default function Dudas() {
 
                     <li className='secondListitem7'>
                         <div className='headDudas'>
-                            <a>¿Cuándo debo pagar a Sagy <br/>por su servicio?</a>
+                            <a>¿Cuándo debo pagar a Sagy por su servicio?</a>
                             <div>
                                 <img className="imgSignalDudas" src={process.env.PUBLIC_URL + 'SignalDudas.png'} alt="SignalDudas.png"/>
                             </div>
                         </div>
                         <ul className='subListFirstItem7'>
-                            <li>Cuando veas reflejado el ahorro<br/>directamente en tu factura de servicios<br/>públicos. Te mostraremos todas las<br/>evidencias de que tu ahorro se debe a<br/>nuestra labor.</li>
+                            <li>Cuando veas reflejado el ahorro directamente en tu factura de servicios públicos. Te mostraremos todas las evidencias de que tu ahorro se debe a nuestra labor.</li>
                         </ul>
                     </li>
                     
@@ -66,7 +66,7 @@ export default function Dudas() {
                 <ul className='secondListDudas' id='secondListDuda'>
                     <li className='secondListitem1'>
                         <div className='headDudas'>
-                            <a>¿Cómo puedo hacer la <br/>inscripción de mi factura?</a>
+                            <a>¿Cómo puedo hacer la inscripción de mi factura?</a>
                             <div>
                                 <img className="imgSignalDudas" src={process.env.PUBLIC_URL + 'SignalDudas.png'} alt="SignalDudas.png"/>
                             </div>
@@ -77,7 +77,7 @@ export default function Dudas() {
                     </li>
                     <li className='secondListitem2'>
                         <div className='headDudas'>
-                            <a>¿Tengo que inscribir mi factura<br/>cada mes?</a>
+                            <a>¿Tengo que inscribir mi factura cada mes?</a>
                             <div>
                                 <img className="imgSignalDudas" src={process.env.PUBLIC_URL + 'SignalDudas.png'} alt="SignalDudas.png"/>
                             </div>
@@ -88,7 +88,7 @@ export default function Dudas() {
                     </li>
                     <li className='secondListitem3'>
                         <div className='headDudas'>
-                            <a>¿Tengo que pagar para inscribir <br/>mi factura?</a>
+                            <a>¿Tengo que pagar para inscribir mi factura?</a>
                             <div>
                                 <img className="imgSignalDudas" src={process.env.PUBLIC_URL + 'SignalDudas.png'} alt="SignalDudas.png"/>
                             </div>

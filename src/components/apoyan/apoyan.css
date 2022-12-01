@@ -1,0 +1,25 @@
+.containerAyudan{
+    background-color: white;
+    display: flex;
+    height: 240px;
+    width: 100%;
+    align-items: center;
+}
+.headerAyudan{
+    color: #008EBA;
+    font-size: 3.5rem;
+    font-weight: 700;
+    font-family: 'Poppins';
+    font-style: normal;
+}
+.leftAyudan{
+    width: 20%;
+    text-align: center;
+}
+.rightAyudan{
+    width: 80%;
+    text-align: center;
+}
+.imgPresidencia{
+    padding-inline: 5rem;
+}

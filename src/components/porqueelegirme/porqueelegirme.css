@@ -28,7 +28,7 @@ ul.contenedor-item {
     display: flex;
     flex-flow: wrap;
     justify-content: center;
-    padding-inline-start: 1.5%;
+    padding-inline-start: 0%;
 }
 ul.contenedor-item li {
     width: 30%;
@@ -56,6 +56,7 @@ ul.contenedor-item li {
     opacity: 1;
     top: 0;
     -webkit-transform:skew(2);
+    height: 35.3rem;
 }
 
 @media (max-width: 858px) {
@@ -87,7 +88,7 @@ ul.contenedor-item li {
     }
     .imgBeneficio1Hover{
         width: 30.5rem;
-        height: 35.3rem;
+        height: 0rem;
         opacity: 0;
         position: absolute;
         z-index: 1;
