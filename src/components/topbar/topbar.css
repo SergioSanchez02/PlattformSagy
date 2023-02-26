@@ -1,7 +1,7 @@
 .top{
     position: sticky;
     width: 100%;
-    height: 9rem;
+    /*height: 9rem;*/
     background-color:#ffffff;
     top:0;
     display: flex;
@@ -52,9 +52,12 @@
 }
 .topListR{
     display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
+    align-items: center;
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    padding-inline-start: 0;
 }
 .topListItemR{
     display: flex;
@@ -65,23 +68,26 @@
     font-weight: 900;
 }
 .topListItemRButton{
-    display: flex;
     cursor: pointer;
     color: #64778C;
     font-family: 'Poppins', sans-serif;
     margin-right: 2rem;
     font-weight: 900;
+    display: flex;
+    text-align: center;
+    align-items: center;   
 }
 .topListAhorremosButton{
     background-color: #00B27A;
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
-    font-size: 3rem;
+    font-size: 2.7rem;
     font-weight: 900;
     border: none;
-    border-radius: 6rem;
-    padding: 0.5rem 3rem;
+    border-radius: 2rem;
     color: #ffffff;
+    display: flex;
+     
 }
 .linkCenter{
     text-decoration:inherit;
@@ -127,10 +133,10 @@
         border: none;
         padding: 0rem 5%;
         padding: auto;
-        margin: 15% 5%;
-    }
-    .topListAhorremosButton a{
-        line-height: 4rem;
+        margin: 15% 5%;    
+        display: flex;
+        text-align: center;
+        align-items: center;  
     }
     .checkbtn{
         height: 90%;

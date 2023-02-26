@@ -84,11 +84,13 @@
     padding-bottom: 1.5%;
 }
 .buttonClickAquiCH{
-    display: block;
+    /*display: block;
     width: 266px;
     height: 58px;
-    left: 0;
-    right: 0;
+    padding: 0%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;*/
+    display: flex;
     margin: auto;
     background-color: #00B27A;
     cursor: pointer;
@@ -97,10 +99,9 @@
     font-weight: 1000;
     color: white;
     border: none;
-    border-radius: 30px;
-    padding: 0%;
-    margin-top: 0.5%;
-    margin-bottom: 0.5%;
+    border-radius: 3rem;
+    padding: 0.6rem 1.5rem;
+
 }
 .buttonClickAquiCH:hover{
     background-color: #00739D;
