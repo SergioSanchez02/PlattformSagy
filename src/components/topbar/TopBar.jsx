@@ -53,8 +53,8 @@ export default function TopBar() {
                                 <button className="topListAhorremosButton"><a className="link"  href="https://wa.me/573243205821" target="_blank">Ahorremos</a></button>
                             </li>
                             <li className="topListItemR">
-                                <a href="https://www.instagram.com/sagy.co/?igshid=YmMyMTA2M2Y%3D" target="_blank"><img className="imgFooterInstagram" src={process.env.PUBLIC_URL + 'InsFooter.png'} alt="IgLogoFooter.png"/></a>
-                                <a href="https://wa.me/573243205821" target="_blank"><img className="imgWpp" src={process.env.PUBLIC_URL + 'FooterWpp.png'} alt="WppLogo.png"/></a>
+                                <a href="https://www.instagram.com/sagy.co/?igshid=YmMyMTA2M2Y%3D" target="_blank"><img className="topIcon" src={process.env.PUBLIC_URL + 'InsFooter.png'} alt="IgLogoFooter.png"/></a>
+                                <a href="https://wa.me/573243205821" target="_blank"><img className="topIcon" src={process.env.PUBLIC_URL + 'FooterWpp.png'} alt="WppLogo.png"/></a>
                             </li>
                         </ul>
                     }
