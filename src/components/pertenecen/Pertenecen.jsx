@@ -3,7 +3,7 @@ import './pertenecen.css'
 
 export default function Pertenecen() {
   return (
-    <div className='containerEmpresas'>
+    <div className='containerEmpresas' id='SectionAliados'>
         <div className='headEmpresas'>
             <h1 className='headerEmpresas'>Empresas que confían en nosotros</h1>
         </div>
