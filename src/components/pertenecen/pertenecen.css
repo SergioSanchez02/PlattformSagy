@@ -1,5 +1,5 @@
 .containerEmpresas{
-    height: 562px
+    height: 45rem;
 }
 .headEmpresas{
     width: 100%;
@@ -10,7 +10,7 @@
     font-weight: 700;
     font-family: 'Poppins';
     font-style: normal;
-    padding-block: 2%;
+    padding-top: 2%;
 }
 .carrusel-contenido {
 	width: 100%;

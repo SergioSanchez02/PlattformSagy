@@ -82,6 +82,7 @@
 }
 .firstListDudas div, .secondListDudas div{
     display: flex;
+    margin-inline: 1%;
 }
 .firstListDudas li ul, .secondListDudas li ul{
     display: none;
@@ -100,6 +101,9 @@
 }
 #labelView{
     display: none;
+}
+.SecondDudasItem{
+    width: 35.735rem;
 }
 @media (max-width: 858px) {
     .rigthDudas{

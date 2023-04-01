@@ -1,6 +1,6 @@
 .ComoAyudo{
     width: 100%;
-    height: 1020px;
+    height: 91rem;
     background: #E9F8FF;
 }
 .containerHeader{
@@ -18,7 +18,7 @@
 .headerCA{
     font-family: 'Poppins';
     font-weight: 600;
-    font-size: 30px;
+    font-size: 3rem;
     /* identical to box height, or 217% */
     color: #1095BE;
 }
@@ -26,9 +26,9 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 65px;
+    font-size: 1.8rem;
     color: #606060;
+    margin-inline: 20rem;
 }
 .descriptionHeaderR{
     display: none;
@@ -40,17 +40,17 @@
     padding-block: 1%;
 }
 .sectionLeft{
-    display: block;
-    margin: auto;
-    padding-left: 2%;
+    width: 50%;
+    text-align: center;
 }
 .imgComoAyudo{
-    width: 521px;
-    height: 512px;
+    width: 45.5rem;
+    height: 44.5rem;
 }
 .sectionRigth{
-    padding-right: 2%;
+    padding-right: 5%;
     display: table-column-group;
+    width: 50%;
 }
 .itemsR{
     align-items: center;
@@ -59,18 +59,19 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 3rem;
     color: #606060;
+    width: 95%;
 }
 .imgIconsComoAyudo{
-    width: 95px;
-    height: 95px;
+    width: 8.5rem;
+    height: 8.5rem;
 }
 .headerFinal{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 5rem;
     text-align: center;
     color: #00739D;
 }
@@ -78,30 +79,24 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 50px;
+    font-size: 5rem;
     text-align: center;
     color: #00739D;
     padding-bottom: 1.5%;
 }
 .buttonClickAquiCH{
-    /*display: block;
-    width: 266px;
-    height: 58px;
-    padding: 0%;
-    margin-top: 0.5%;
-    margin-bottom: 0.5%;*/
     display: flex;
     margin: auto;
     background-color: #00B27A;
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 1000;
     color: white;
     border: none;
     border-radius: 3rem;
     padding: 0.6rem 1.5rem;
-
+    justify-content: center;
 }
 .buttonClickAquiCH:hover{
     
@@ -109,7 +104,10 @@
 }
 @media (max-width: 858px) {
     .ComoAyudo{
-        height: 1120px;
+        height: 1050px;
+    }
+    .itemsR{
+        width: 100%;
     }
     .questionComoAyudo{
         font-size: 2.5rem;
@@ -139,6 +137,7 @@
     .sectionLeft{
         text-align: center;
         padding-left: 0%;
+        width: 100%;
     }
     .imgComoAyudo{
         width: 292px;
@@ -147,6 +146,7 @@
     }
     .sectionRigth{
         display: block;
+        width: 100%;
     }
     .headerFinal{
         font-size: 2rem;
@@ -155,8 +155,6 @@
         font-size: 2rem;
         padding-bottom: 2.5%;
     }
-
-    
     .buttonClickAquiCH{
         width: 20.6rem;
         height: 4.8rem;

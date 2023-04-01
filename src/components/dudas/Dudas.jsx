@@ -27,7 +27,7 @@ export default function Dudas() {
                     
                     <li className='firstListitem3'>
                         <div className='headDudas'>
-                            <a>¿Cuánto vale el servicio de Sagy?</a>
+                            <a className='SecondDudasItem'>¿Cuánto vale el servicio de Sagy?</a>
                             <div>
                                 <img className="imgSignalDudas" src={process.env.PUBLIC_URL + 'SignalDudas.png'} alt="SignalDudas.png"/>
                             </div>
